@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#011f3f"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonPanel"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:lineSpacingExtra="10sp"
+        android:textSize="25sp"
+        android:id="@+id/levelCounter"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/tap_to_start"
+        android:textColor="@color/text" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/buttonPanel"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="15sp"
+            android:layout_marginBottom="15sp"
+            android:background="@drawable/button_green" />
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_margin="15sp"
+        android:background="@drawable/button_yellow"
+        android:layout_below="@+id/button1"
+        android:id="@+id/button2"/>
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_margin="15sp"
+        android:background="@drawable/button_red"
+        android:layout_toEndOf="@+id/button1"
+        android:id="@+id/button3"/>
+
+
+    <Button
+        android:layout_width="150sp"
+        android:background="@drawable/button_blue"
+        android:layout_height="150sp"
+        android:layout_margin="15sp"
+        android:layout_toEndOf="@id/button2"
+        android:layout_below="@id/button3"
+        android:id="@+id/button4"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
+        android:id="@+id/highscore"
+        android:text="@string/highscore"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="@color/highScore"/>
+
+
+
+
+
+</RelativeLayout>
