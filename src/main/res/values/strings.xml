@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimonSays</string>
+    <string name="tap_to_start">Tap a Button To Start</string>
+    <string name="highscore">Highscore:</string>
+    <string name="highscore_display">Highscore + %1$s</string>
+    <string name="level_display">Level + %1$s</string>
+    <string name="game_over_display">Game Over, Level %1$s \nPress Any Key to Restart</string>
+    <string name="recordDisplay">highscore + %1$s</string>
+    <string name="level">Level %1$s</string>
+</resources>
